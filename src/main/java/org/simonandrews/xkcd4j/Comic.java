@@ -13,8 +13,16 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.simonandrews.xkcd4j.exceptions.ComicNotFoundException;
 
+/**
+ * Represents a comic on xkcd.
+ * @author Simon Andrews
+ */
 public class Comic {
 	private JSONObject jsonObject;
+	/**
+	 * xkcd comic constructor.
+	 * @param comicNumber Number of the comic.
+	 */
 	public Comic(int comicNumber) {
 		//This whole section adapted from: https://stackoverflow.com/a/238634
 		URL url;
@@ -50,6 +58,11 @@ public class Comic {
 	        }
 		}
 	}
+	/**
+	 * Get a piece of data about the comic.
+	 * @param key JSON key of data you want.
+	 * @return Requested data
+	 */
 	public Object getData(String key) {
 		return jsonObject.get(key);
 	}

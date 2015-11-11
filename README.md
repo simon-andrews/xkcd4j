@@ -1,4 +1,4 @@
-# xkcd4j ![Build Status](https://travis-ci.org/simon-andrews/xkcd4j.svg?branch=master)
+# xkcd4j [![Build Status](https://travis-ci.org/simon-andrews/xkcd4j.svg?branch=master)](https://travis-ci.org/simon-andrews/xkcd4j)
 Unofficial Java library for getting xkcd comics.
 
 ## Using

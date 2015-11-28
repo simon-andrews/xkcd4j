@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.simonandrews.xkcd4j</groupId>
   <artifactId>xkcd4j</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>xkcd4j</name>
   <description>Unofficial Java library for getting comics the xkcd webcomic.</description>
   <dependencies>

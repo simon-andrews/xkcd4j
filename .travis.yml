@@ -1,1 +1,8 @@
 language: java
+deploy:
+  provider: bintray
+  file: ".bintraydescriptor"
+  user: "simon-andrews"
+  key:
+    secure: DfNAWCP8Dup2dlyVVuJVvm3fXehuyfsBzllSczrjLyqi3gt7DFbr+Rdi6WSSUFC4tMgiMJCsgYdNqjqljtx5pMf+w6MKZwwlca8+7BfmN08B1JhBi5NmgmQQXwYL95MuvC52TpJyW7AGXMZ4141FFanBtQxRzh0395XmUBzUKdw=
+  dry-run: true

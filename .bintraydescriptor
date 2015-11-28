@@ -2,13 +2,13 @@
 	"package": {
 		"name": "xkcd4j",
 		"repo": "maven",
-		"subject": "simon-andrews",
+		"subject": "simon-andrews"
 	},
 	"version": {
-		"name": "0.0.1",
+		"name": "0.0.1"
 	},
 	"files": [
 		{"includePattern": "/home/travis/.m2/repository/org/simonandrews/xkcd4j/xkcd4j/0.0.1/*.jar"},
-		{"includePattern": "/home/travis/.m2/repository/org/simonandrews/xkcd4j/xkcd4j/0.0.1/*.pom"},
-	],
+		{"includePattern": "/home/travis/.m2/repository/org/simonandrews/xkcd4j/xkcd4j/0.0.1/*.pom"}
+	]
 }
